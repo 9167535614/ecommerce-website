@@ -1,0 +1,189 @@
+
+*{
+    margin:0;
+    width:auto;
+    box-sizing:border-box;
+}
+html,
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+.main{
+    height:100vh;
+    width:100%;
+    background:#d0d4D5;
+}
+.nav{
+    height:110px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:0px 50px;
+}
+.nav img{
+    height:80px;
+    width:auto;
+    color:#d0d4D5 !important; 
+    margin-right:35px;
+    cursor:pointer;   
+}
+.nav-part-1{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.nav-part-1 ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    list-style:none;
+}
+.nav-part-1 ul li{
+    font-size:15px;
+    font-weight:400;
+    margin-right:35px;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.nav-part-2 i{
+    margin-right:35px;
+    font-size:15px;
+    font-weight: 400px;
+    cursor:pointer;
+}
+.content{
+    height: calc(100%-110px);
+    width:100%;
+    position:relative;
+    display:flex;
+}
+.content-left{
+    height:100%;
+    padding: 60px 100px;
+    width:40%
+}
+.content-left h5{
+    font-size:20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    color:#555;
+}
+.content-left h1{
+    font-size:55px;
+    color:#000;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.content-left p{
+    font-size:20px;
+    color:#000;
+    margin-bottom: 30px;
+    width:80%;
+}
+.btn{
+    background:#000;
+    color:#fff;
+    border-radius:50px;
+    border-top-left-radius: 0;
+    padding:12px 40px;
+    font-weight:400;
+    border: none;
+}
+.content-right{
+    height:100%;
+    width:60%;
+    padding: 110px 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.content-right::-webkit-scrollbar{
+    display:none;
+}
+.product{
+    height: 370px;
+    width:250px;
+    background:#1011;
+    box-shadow: 0px 5px 10px rgba(26, 16, 26, 0.3);
+    position:relative;
+    display:inline-block;
+    margin-right:20px;
+}
+.product img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+    position:absolute;
+    bottom:20%;
+}
+.product h4{
+    font-size:18px;
+    text-transform: capitalize;
+    position:absolute;
+    bottom:28%;
+}
+.category{
+    position:absolute;
+    bottom:20%;
+    font-weight:400;
+    text-transform: capitalize;
+}
+.color{
+    position:absolute;
+    bottom:15%;
+    font-weight:400;
+    text-transform: capitalize;
+}
+.price{
+    position:absolute;
+    bottom:5%;
+    font-weight:400;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
